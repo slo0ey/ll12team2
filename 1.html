@@ -4,6 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      header {
+        height: 150px;
+      }
+      article {
+        display: flex;
+      }
+      aside {
+        width: 40%;
+      }
+      main {
+        width: 60%;
+      }
+      article,
+      aside,
+      main {
+        height: 600px;
+      }
+      footer {
+        height: 100px;
+      }
+      header,
+      aside,
+      main,
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>header</header>
+    <article>
+      <aside>aside</aside>
+      <main>main</main>
+    </article>
+    <footer>footer</footer>
+  </body>
 </html>
